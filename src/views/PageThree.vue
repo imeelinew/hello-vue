@@ -7,6 +7,7 @@
         <nav class="sub-nav">
             <router-link to="/page-three/child1">子页面 1</router-link>
             <router-link to="/page-three/child2">子页面 2</router-link>
+            <router-link to="/page-three/child3">子页面 3</router-link>
         </nav>
 
         <!-- 子路由出口 -->

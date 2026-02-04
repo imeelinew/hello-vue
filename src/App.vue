@@ -6,6 +6,8 @@
       <router-link to="/page-one">页面一</router-link> |
       <router-link to="/page-two">页面二</router-link> |
       <router-link to="/page-three">页面三</router-link> |
+      <router-link to="/page-four">页面四</router-link> |
+      <router-link to="/page-five">页面五</router-link> |
       <router-link to="/home">返回首页</router-link> |
       <router-link to="/backhome">首页别名</router-link>
 
@@ -41,7 +43,7 @@ export default {
 }
 
 .fade-enter-active {
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
   /* 过渡过程：只放 transition */
 }
 
@@ -57,7 +59,7 @@ export default {
 }
 
 .fade-leave-active {
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
   /* 过渡过程：只放 transition */
 }
 
